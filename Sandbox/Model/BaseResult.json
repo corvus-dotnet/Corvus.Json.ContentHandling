@@ -1,0 +1,11 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Base result schema",
+    "description": "This is the schema that corresponds to the result of processing the example media",
+    "type": "object",
+    "required": [ "particleCount" ],
+    "properties": {
+        "particleCount": { "type": "integer" },
+        "handledBy": { "type": "string" }
+    }
+}

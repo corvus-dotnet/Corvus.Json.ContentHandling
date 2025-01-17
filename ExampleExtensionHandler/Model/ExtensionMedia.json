@@ -1,0 +1,20 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Extension media schema",
+    "type": "object",
+    "required": [
+        "id",
+        "data"
+    ],
+    "properties": {
+        "id": {
+            "type": "string",
+            "description": "The unique identifier for the media object"
+        },
+        "data": {
+            "type": "string",
+            "contentEncoding": "base64",
+            "description": "The IRI at which the data for the entity can be resolved."
+        }
+    }
+}
